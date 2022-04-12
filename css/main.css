@@ -130,12 +130,12 @@ footer, .social p{
 .hero-area{
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -143,7 +143,7 @@ aside{
 .features{
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features, .feature-items{
