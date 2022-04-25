@@ -265,7 +265,7 @@ aside{
 }
 
 .faq h2 {
-  -bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .faq-content {
@@ -453,7 +453,7 @@ aside .content-wrapper .form {
 }
 
 .reviews article div {
-  width: 640px;
+  width: 49%;
 }
 
 
@@ -477,6 +477,30 @@ footer .contact {
 
 footer .copyright {
   width: 190px;
+}
+
+
+/***** ABOUT PAGE *****/
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;;
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+.content-section .content-wrapper h2 {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 
