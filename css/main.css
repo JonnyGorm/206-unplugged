@@ -367,9 +367,14 @@ aside{
   /* Tablet styles here */
 
 
-.container-wrappe{
+.container-wrapper{
   max-width: 640px;
   margin: 100px 0;
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -417,7 +422,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 640px;
+  width: 40%;
   margin: 0;
 }
 
@@ -482,15 +487,21 @@ footer .copyright {
 
 /***** ABOUT PAGE *****/
 
+
 .mission-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;;
+  padding-top: 20px;
 }
 
 .mission-content p {
   width: 45%;
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
 }
 
 .content-section .content-wrapper h2 {
