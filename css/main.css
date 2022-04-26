@@ -578,7 +578,7 @@ aside .content-wrapper.form {
 }
 
 .features article {
-  flex-basis: 70%;
+  flex-basis: 33%;
 }
 
 
@@ -589,7 +589,7 @@ ABOUT PAGE
 
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width: 78%;
+  width: 95%;
 }
 
 .mission .content-wrapper {
