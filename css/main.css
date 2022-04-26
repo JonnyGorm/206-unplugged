@@ -593,13 +593,11 @@ ABOUT PAGE
 }
 
 .mission .content-wrapper {
-  display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
 .content-section {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
