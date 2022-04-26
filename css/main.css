@@ -87,6 +87,63 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /***** GENERAL STYLES *****/
+
+   html {
+     font-size: 16px;
+   }
+
+   body {
+     font-family: 'open sans', sans-serif;
+     font-size: 1em;
+     text-align:left;
+     
+   }
+
+   ul,
+   ol {
+     list-style-type: none;
+   }
+
+   a {
+     color: #e2e3ed;
+     text-decoration: none;
+   }
+
+
+   h2 {
+     font-family: 'poppins', sans-serif;
+     font-size: 3em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'poppins', sans-serif;
+     margin: 20px 0;
+     font-size: 2em;
+   }
+
+   p {
+     font-size: 1em;
+     line-height: 1.2;
+   } 
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+     font-style: normal;
+   }
+
+   .content-wrapper {
+     width: 100%;
+     margin: 50px 0;
+   }
 
 
 .content-wrapper{
@@ -473,7 +530,7 @@ footer .content-wrapper {
 .footer-content {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
 }
 
 footer .contact {
