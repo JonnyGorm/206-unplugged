@@ -134,11 +134,11 @@ textarea {
    } 
 
    img {
-
+     width: 100%;
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -157,28 +157,9 @@ textarea {
   margin: 50px 0;
 }
 
-.reviews {
-  background-color: #2a423a;
-}
-
-header,
-footer {
-  background-color: #202322;
-}
-
-.mission {
-  background-color: #527158;
-}
-
-.content-section {
-  background-color: #2a423a;
-}
-
-.faq {
-  background-color: #527158;
-}
 
 /*-------Base Header - Footer Styles ---------*/
+
 header, 
 footer {
   display: flex;
@@ -198,6 +179,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -270,6 +259,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash.jpg') no-repeat center;
+  background-size: cover; 
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -324,6 +316,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .features h2{
@@ -631,6 +625,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -668,7 +663,7 @@ footer p {
 }
 
 footer .copyright {
-  width: 190px;
+  width: 100%
 }
 
 
