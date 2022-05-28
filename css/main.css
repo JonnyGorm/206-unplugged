@@ -341,6 +341,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /*----- REVIEWS SECTION -----*/
 
 .reviews {
@@ -531,57 +536,56 @@ input[type=button] {
   /* Tablet styles here */
 
 
-.content-wrapper{
-  max-width: 640px;
-  margin: 100px 0;
-}
+  .content-wrapper{
+    max-width: 640px;
+    margin: 100px 0;
+  }
 
-.content-section {
-  display: flex;
-  justify-content: center;
-}
+  .content-section {
+    display: flex;
+    justify-content: center;
+  }
 
-h2 {
-  font-size: 2.25em;
-  line-height: 1.333;
-}
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
 
-h3 {
-  font-size: 1.5em;
-  line-height: 1.25;
-}
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
 
 
 
 /***** Header *****/
 
 
-header{
-  justify-content: space-around;
-  padding: 33px 0;
-}
+  header{
+    justify-content: space-around;
+    padding: 33px 0;
+  }
 
-header .content-wrapper {
-  justify-content: space-between;
-  width: 100%;
-}
+  header .content-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
 
-header figure {
-  width: 30%;
-}
+  header figure {
+    width: 30%;
+  }
 
-header nav {
-  width: 20%;
-}
+  header nav {
+    width: 20%;
+  }
 
-header nav ul {
-  justify-content: space-between;
+  header nav ul {
+    justify-content: space-between;
+  }
 
-}
-
-.header-divider {
-  display: none
-}
+  .header-divider {
+    display: none
+  }
 
 
 
@@ -734,6 +738,7 @@ footer .copyright {
   position: absolute;
   top:0;
   left:0;
+}
 
 
 /***** FAQ PAGE *****/
