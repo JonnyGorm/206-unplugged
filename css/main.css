@@ -209,7 +209,10 @@ header nav{
 header nav ul{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 header nav ul li {
@@ -586,11 +589,14 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
   }
 
   .header-divider {
@@ -788,12 +794,12 @@ footer .copyright {
   }
 
   h2 {
-    font-size: 2.25em;
+    font-size: 3em;
   }
 
   h3,
   h4 {
-    font-size: 1.875em;
+    font-size: 1.5em;
   }
 
   p {
@@ -876,6 +882,7 @@ ABOUT PAGE
   position: absolute;
   top:0;
   left:0;
+}
 
 
 /*===========================================================
